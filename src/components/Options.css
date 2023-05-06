@@ -1,0 +1,24 @@
+.sidebar {
+
+        position: fixed;
+        top: 16px;
+        bottom: 0;
+        right: -3000px;
+        width: 30vw;
+        background-color: #eee;
+        transition: all 0.3s ease-in-out;
+        overflow-y: auto;
+        z-index: 2;
+        text-align: center;
+}
+
+.sidebar.active {
+        right: 0;
+}
+
+.toggle-sidebar {
+
+        cursor: pointer;
+        float: right;
+        font-size: 1vw;
+}
